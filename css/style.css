@@ -1,0 +1,64 @@
+header{
+    color: white;
+    width: 100%;
+    height: 6rem;
+    background-color: green;
+    position: sticky;
+    top: 0rem;
+    z-index: 1;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    border: 1px solid red;
+    margin-top: 6rem;
+    padding: 5rem;
+    position: relative;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+small {
+    
+    font-size: 1rem;
+    color: white;
+    height: 2rem;
+    width: 2rem;
+    background-color: green;
+    position: relative;
+    bottom: 5rem;
+    left: 5rem;
+    border-radius: 50%;
+}
+
+.box>div {
+    padding: 4rem;
+    border: 1px solid black;
+}
+
+
+.box>div:first-child {
+    background-color: red;
+    position: relative;
+    top: 0px;
+}
+
+.chat {
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    background-color: green;
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    right: 1rem;
+    bottom: 1rem;
+    border-radius: 7px;
+}
